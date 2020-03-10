@@ -1,0 +1,53 @@
+body{
+	width: 400px;
+	margin: 0px auto;
+}
+.chat{
+	width: 400px;
+	height: 600px;
+	border: 5px solid #aaa;
+	position: relative;
+}
+.msg-send{
+	position: absolute;
+	bottom: 0px;
+}
+.msg-send textarea{
+	width: 320px;
+}
+.msg-send input[type=submit]{
+	width: 70px;
+}
+.msg-show{
+	height: 540px;
+	overflow: scroll;
+}
+.msg-right{
+	width: 100%;
+	margin-top: 10px;
+	padding: 10px;
+}
+.msg-left{
+	display: block;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 2px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.msg-right span{
+	background: dodgerblue;
+	color:#fff;
+	border-radius: 5px;
+	padding: 5px;
+	min-width: 0px;
+	float: right;
+	text-align: right;
+	margin-right: 20px;
+}
+.msg-left span{
+	border-radius: 5px;
+	padding: 5px;
+	border: 1px solid #7a7a7a;
+
+}
